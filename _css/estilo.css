@@ -1,0 +1,125 @@
+@charset="UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+
+
+
+body {
+
+		background-color: #EE3A8C;
+		color: rgba(0,0,0,1);
+
+}
+
+div#interface {
+	width: 1335px;
+	height: 400px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 50px rgba(0,0,0,.7) ;
+	/*border: solid 1px red;*/
+
+
+}
+
+
+header#cabecalho img#logo {
+	position: relative;
+	top: 100px;
+	left: 430px;
+	
+}
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 1px;
+	left: 1100px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #EE3A8C;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition : background-color 1s;
+	-ms-transition : background-color 1s;
+	transition : background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #EE3A8C;
+}
+
+nav#menu a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+section#corpo {
+	width: 100%;
+	display: block;
+	height: 310%;
+	
+}
+
+
+div#endereco h1 {
+	font-family: 'Poiret One' , cursive ;
+	font-size: 15pt;
+	text-align: center;
+	color: #ffffff;
+
+}
+
+div#tel h1 {
+	font-family: 'Poiret One' , cursive ;
+	font-size: 15pt;
+	text-align: center;
+	color: #ffffff;
+	
+}
+
+div#tel img#zap {
+    position: relative;
+    top: 50px;
+    left: 500px;
+
+}
+
+footer#rodape {
+	clear: both;
+	padding: 1px;
+	background-color: #ffffff;
+	height: 130px;
+	
+	}
+
+footer#rodape p {
+	text-align: center;
+	text-decoration: none;
+
+}
+
+footer#rodape h3 {
+	text-align: center;
+	
+}
+
+
+footer#rodape img#face {
+	position: relative;
+    top: -15px;
+    left: 645px;				
+}
